@@ -12,7 +12,7 @@ applications:
     health-check-http-endpoint: /actuator/health/liveness
     timeout: 20
     routes:
-      - route: pal-tracker-${UNIQUE_IDENTIFIER}.${DOMAIN}
+      - route: pal-tracker-atchuta-indana.apps.evans.pal.pivotal.io
     services:
       - tracker-database
     env:
